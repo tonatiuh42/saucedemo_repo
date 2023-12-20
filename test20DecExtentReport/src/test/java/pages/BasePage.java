@@ -27,7 +27,6 @@ public class BasePage {
 	
 	@AfterMethod
 	public void tearDown() {
-		System.out.println("Ending");
 		driver.quit();
 	}
 	
